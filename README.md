@@ -1,2 +1,2 @@
-# RTA-Project
-Road Traffic Accidents Severity Prediction App
+# Road Traffic Accidents Severity Prediction App
+
