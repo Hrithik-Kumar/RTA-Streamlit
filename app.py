@@ -121,9 +121,6 @@ def handle_form():
         st.subheader("Enter the input for following features:")
         
         Day_of_week = st.selectbox("Select Accident Day: ", options=options_day)
-        # Hour = st.slider("Pickup Hour: ", 0, 23, value=0, format="%d")
-        # Minute = st.slider("Minute of Accident: ", 0, 59, value=0, format="%d")
-        # Minute = convert_minutes(Minute)
         accident_time = st.time_input('Select Accident Time')
         Hour = accident_time.hour
         Minute = accident_time.minute
@@ -202,7 +199,7 @@ def main():
     data_option = st.radio(label="Choose one of the following options",options = ["-", "Form data", "CSV file"])
 
     st.sidebar.info("This app is developed to classify the severity of the accident based on the data provided by the user")
-    st.sidebar.image("static/car-crash.jpg")
+    st.sidebar.image("Static/car-crash.jpg")
     st.sidebar.success("Made with ❤️ by [Hrithik-Kumar](https://www.linkedin.com/in/hrithik-k-586967141/) ")         
     if data_option == "CSV file":
         handle_file()            
