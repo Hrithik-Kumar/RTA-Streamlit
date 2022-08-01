@@ -1,7 +1,6 @@
 # Road Traffic Accidents Severity Prediction App
 ## Project: Predicting the Road Traffic Accident Severity
 
-<br/>
 
 ## App: https://rta-streamlit.herokuapp.com/
 
