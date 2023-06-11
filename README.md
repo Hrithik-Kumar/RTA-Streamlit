@@ -2,7 +2,7 @@
 ## Project: Predicting the Road Traffic Accident Severity
 
 
-## App: https://rta-streamlit.herokuapp.com/
+<!-- ## App: https://rta-streamlit.herokuapp.com/ -->
 
 <br/>
 
